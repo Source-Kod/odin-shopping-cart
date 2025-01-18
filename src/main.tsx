@@ -10,6 +10,7 @@ function AppLayout() {
     {
       path: "/",
       element: <Home />,
+      errorElement: <p>404 Page not found</p>,
     },
     {
       path: "/store",
