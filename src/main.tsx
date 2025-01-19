@@ -3,7 +3,7 @@ import { createRoot } from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./index.css";
 import Home from "./pages/Home.tsx";
-import Store from "./pages/Store.tsx";
+import Shop from "./pages/Shop.tsx";
 
 function AppLayout() {
   const router = createBrowserRouter([
@@ -13,8 +13,8 @@ function AppLayout() {
       errorElement: <p>404 Page not found</p>,
     },
     {
-      path: "/store",
-      element: <Store />,
+      path: "/shop",
+      element: <Shop />,
     },
   ]);
 
