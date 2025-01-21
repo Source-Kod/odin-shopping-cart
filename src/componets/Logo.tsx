@@ -1,3 +1,13 @@
+import { Link } from "react-router-dom";
+
 export default function Logo() {
-  return <h1 className="text-3xl font-bold">Thor's marketplace</h1>;
+  return (
+    <Link to="/">
+      <img
+        className="w-30 rounded-lg"
+        alt="Dapper & Co."
+        src="/Dapper & Co.webp"
+      />
+    </Link>
+  );
 }

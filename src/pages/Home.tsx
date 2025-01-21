@@ -6,33 +6,34 @@ export default function Home() {
       <Header />
       <div className="mx-auto max-w-2xl p-4">
         <h1 className="mb-4 text-center text-4xl font-bold">
-          Welcome to Thor's Market
+          Welcome to Dapper & Co.
         </h1>
         <h2 className="mb-2 text-center text-2xl">
           Your Ultimate Men's Fashion Destination
         </h2>
         <p className="mb-6 text-center">
-          Discover the latest trends and styles in men's fashion.
+          Explore a world of style where sophistication meets modern trends.
         </p>
 
-        <h3 className="mb-2 text-xl font-semibold">Featured Products:</h3>
-        <ul className="mb-6 list-inside list-disc">
-          <li>
-            Stylish Shirt - <span className="font-bold">$49.99</span>
-          </li>
-          <li>
-            Classic Pants - <span className="font-bold">$59.99</span>
-          </li>
-          <li>
-            Leather Jacket - <span className="font-bold">$129.99</span>
-          </li>
-        </ul>
+        <h3 className="mb-2 text-xl font-semibold">Why Dapper & Co.?</h3>
+        <p className="mb-4 text-center">
+          At Dapper & Co., we curate collections that empower men to express
+          their individuality through fashion. Our pieces are crafted with
+          attention to detail, ensuring you look sharp for any occasion.
+        </p>
 
-        <p className="mb-4 text-center">Shop now and unleash your inner god!</p>
+        <h3 className="mb-2 text-xl font-semibold">Stay Ahead of Trends</h3>
+        <p className="mb-4 text-center">
+          Join our mailing list to receive updates on the latest styles,
+          exclusive promotions, and fashion tips tailored just for you. Elevate
+          your wardrobe with confidence!
+        </p>
+
+        <p className="mb-4 text-center">Shop now and redefine your style!</p>
 
         <footer className="mt-6 text-center">
           <p className="text-sm">
-            &copy; 2023 Thor's Market. All rights reserved.
+            &copy; 2023 Dapper & Co. All rights reserved.
           </p>
         </footer>
       </div>

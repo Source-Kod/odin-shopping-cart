@@ -5,7 +5,6 @@ export default function Shop() {
   return (
     <>
       <Header />
-      <p>welcome to the shop page</p>
       <ShopItems />
     </>
   );
