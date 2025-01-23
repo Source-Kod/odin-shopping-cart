@@ -13,7 +13,10 @@ export default function ShopItems() {
       <div className="flex">
         {itemsData.map((item: item) => {
           return (
-            <div className="flex flex-col items-center justify-evenly gap-2 p-2">
+            <div
+              key={item.id}
+              className="flex flex-col items-center justify-evenly gap-2 p-2"
+            >
               <img
                 className="w-36 rounded-lg"
                 src={item.image}
