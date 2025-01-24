@@ -4,6 +4,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./index.css";
 import Home from "./pages/Home.tsx";
 import Shop from "./pages/Shop.tsx";
+import Cart from "./pages/Cart.tsx";
 
 function AppLayout() {
   const router = createBrowserRouter([
@@ -15,6 +16,10 @@ function AppLayout() {
     {
       path: "/shop",
       element: <Shop />,
+    },
+    {
+      path: "/cart",
+      element: <Cart />,
     },
   ]);
 
